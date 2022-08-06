@@ -1,6 +1,6 @@
 public interface CalculatorInterface {
-    void Addition(int num1, int num2);
-    void Subtraction(int num1, int num2);
-    void Multiplication(int num1, int num2);
-    void Division(int num1, int num2);
+    void addition(int num1, int num2);
+    void subtraction(int num1, int num2);
+    void multiplication(int num1, int num2);
+    void division(int num1, int num2);
 }

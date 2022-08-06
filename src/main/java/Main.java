@@ -23,16 +23,16 @@ public class Main {
         y = scanner.nextInt();
         switch (symbol) {
             case "+":
-                calculator.Addition(x,y);
+                calculator.addition(x,y);
                 break;
             case "-":
-                calculator.Subtraction(x,y);
+                calculator.subtraction(x,y);
                 break;
             case "*":
-                calculator.Multiplication(x,y);
+                calculator.multiplication(x,y);
                 break;
             case "/":
-                calculator.Division(x,y);
+                calculator.division(x,y);
                 break;
             default:
                 System.out.println("Incorrect entered math operand");
